@@ -77,7 +77,7 @@ video {
 .right {
   width: 50%;
   height: 100%;
-  opacity: 0.9;
+  backdrop-filter: blur(5px);
   transition: 1s;
 }
 
@@ -85,7 +85,7 @@ video {
   position: relative;
   display: flex;
   align-items: center;
-  background-color: silver;
+  background-color: rgba(192, 192, 192, 0.514);
   transform: translateX(-100%);
   z-index: 4;
 }
@@ -136,7 +136,7 @@ video {
 
 .right {
   position: relative;
-  background-color: #1e294c;
+  background-color: #1e294c96;
   transform: translateX(100%);
 }
 
